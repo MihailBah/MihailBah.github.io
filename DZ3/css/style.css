@@ -1,0 +1,92 @@
+body {
+	background-color: #f9f9f9;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 1060px;
+	margin: 0 auto;
+	box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.3);
+	padding: 0 46px;
+	box-sizing: border-box; /* Для того чтобы паддинг не расширял блок */
+	padding-top: 50px;
+	background-color: #fff;
+}
+
+header {
+margin-bottom: 40px;
+}
+
+.logo {
+	display: inline-block;
+	 margin-bottom: 40px; 
+}
+
+.main-nav,
+.main-nav li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+
+.main-nav {
+	height: 40px;
+	line-height: 40px;
+  background-image: -moz-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+}
+
+.main-nav li {
+	/* height: 40px; */
+	display: inline-block;
+	vertical-align: top;
+	/* text-align: center; */
+}
+
+.main-nav li a {
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	vertical-align: tops;
+	padding: 0 35px;
+}
+
+
+.main-nav li a.active {
+background-image: -moz-linear-gradient( 90deg, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
+background-image: -webkit-linear-gradient( 90deg, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
+border-right: 1px solid #838383;
+border-left: 1px solid #838383;
+}
+
+.main-nav li a:hover {
+background-image: -moz-linear-gradient( 90deg, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
+background-image: -webkit-linear-gradient( 90deg, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
+}
+
+/* main {
+	box-sizing: border-box; 
+} */
+.right-box {
+}
+
+.product {
+	float: right; /* тут остановился */
+	box-sizing: border-box;
+	border: 1px solid black;
+}
+
+.left-box,
+.left-box li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+box-sizing: border-box;
+}
+.left-box a {
+	text-decoration: none;
+	box-sizing: border-box;
+
+}
