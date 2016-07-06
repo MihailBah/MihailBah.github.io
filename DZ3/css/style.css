@@ -46,8 +46,7 @@ header {
 .main-nav {
 	height: 40px;
 	line-height: 40px;
-    background-image: -moz-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
-    background-image: -webkit-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+	background-image: linear-gradient(to top, #444343 0%, #5e5e5e 100%);
 }
 
 .main-nav li {
@@ -77,8 +76,7 @@ border-left: 1px solid #838383;
 .main-nav li a:hover {
 	border-right: 1px solid #838383;
 	border-left: 1px solid #838383;
-    background-image: -moz-linear-gradient( 90deg, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
-    background-image: -webkit-linear-gradient( 90deg, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
+	background-image: linear-gradient(to top, #2e2e2e 0%, #4a4a4a 100%);
 }
 
 .right-box {
@@ -156,7 +154,6 @@ border-left: 1px solid #838383;
 .footer {
 	display: block;
 	padding: 0 25px;
-	margin-bottom: 60px;
 	height: 40px;
 	line-height: 40px;
 	background-color: white;
